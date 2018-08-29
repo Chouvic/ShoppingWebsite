@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
+
+  <head>
+
+		<title>Product</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/default.css" />
+    <link rel="stylesheet" href="assets/css/component.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/modernizr.custom.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/product.js"></script> -->
+
+  </head>
+
+  <body>
+
+  <!-- Header -->
+  <div id="header"></div>
+
+  <!-- Nav -->
+  <div id="nav"></div>
+
+  <section id="two" class="wrapper style2">
+		<div class="inner">
+      <fieldset>
+        <legend><h3>Product Specification</h3></legend>
+        <div class="container1">
+          <div class="product">
+            <img id = "picture" height="470px" width="auto" src="" />
+            <div class="product-info">
+              <p>Product: <b><span id="title"> </span></b></p><br></br>
+              <p>Price: <b><span id="price"> </span> &#163;</b></p><br></br>
+              <div class="clear"></div>
+              <p></p>
+              <p><span>Quantity: </span>
+                <input id="squan" type="number" name="points" min="0" max="10" value="0"/>
+              </p>
+              <div class="cart">
+                <input type="submit" id= "BuyI" value="Buy" class="button special"/>
+              </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <br></br>
+
+          <!-- Product Table -->
+          <div id="spec"></div>
+
+        </div>
+      </fieldset>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+  <script src="assets/js/toucheffects.js"></script>
+  <script>
+    $(function () {
+      $('#header').load('app/header.html');
+      $('#nav').load('app/nav.html');
+      $('#footer').load('app/footer.html');
+      $('#spec').load('app/spec.html');
+    })
+  </script>
+</body>
+</html>

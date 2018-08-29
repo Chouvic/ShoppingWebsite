@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Sign Up</title>
+  <script type="text/javascript" src="assets/js/jquery.js"></script>
+  <script type="text/javascript" src="assets/js/sign.js"></script>
+	<link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/default.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <div id="header"></div>
+  
+  <!-- Nav -->
+  <div id="nav"></div>
+
+  <section id="one" class="wrapper style2">
+		<div class="inner">
+      <div id="frm">
+        <div id="cursor2"></div>
+        <fieldset>
+          <legend><h3>Sign Up</h3></legend>
+          <div class="control-group">
+            <label for="username" class="control-label">
+              <input type="text" id="user" class="input-block-level" name ="username" placeholder="USERNAME"/>
+              <span class="help">* Please inform your username</span>
+            </label>
+          </div>
+
+          <div class="control-group">
+            <label for="password" class="control-label">
+              <input type="password" id="pass" class="input-block-level" name ="password" placeholder="PASSWORD"/>
+              <span class="help">* Please inform your password</span>
+            </label>
+          </div>
+
+          <div class="control-group">
+            <label for="re-password" class="control-label">
+              <input type="password" id="repass" class="input-block-level" name ="repassword" placeholder="REPASSWORD"/>
+              <span class="help">* Please inform your password</span>
+            </label>
+          </div>
+
+          <div class="control-group">
+            <label for="name" class="control-label">
+              <input type="text" id="name" class="input-block-level" name ="name" placeholder="NAME"/>
+              <span class="help">* Please inform your name</span>
+            </label>
+          </div>
+
+          <div class="control-group">
+            <label for="birth" class="control-label">
+              <p>BIRTHDAY:</p>
+              <input type="date" id="birt" class="input-block-level" name ="birthday" placeholder="BIRTHDAY"/>
+              <span class="help">* Please inform your birthday</span>
+            </label>
+          </div>
+
+          <div class="control-group">
+            <label for="address" class="control-label">
+              <input type="text" id="addr" class="input-block-level" name ="address" placeholder="ADDRESS"/>
+              <span class="help">* Please inform your address</span>
+            </label>
+          </div>
+
+          <div class="control-group">
+            <label for="phone" class="control-label">
+              <input type="text" id="tele" class="input-block-level" name ="telephone" placeholder="TELEPHONE"/>
+              <span class="help">* Please inform your phone</span>
+            </label>
+          </div>
+          <p>Already have an account? <a href="login.html">Sign In</a></p>
+            <ul class="actions">
+              <input type="submit" id= "Sign" value="Sign up" class="button special"/>
+            </ul>
+        </fieldset>
+      </div>
+
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <div id="footer"></div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+  <script src="assets/js/toucheffects.js"></script>
+  <script>
+    $(function () {
+      $('#header').load('app/header1.html');
+      $('#nav').load('app/nav.html');
+      $('#footer').load('app/footer.html');
+    })
+  </script>      
+</body>
+
+</html>

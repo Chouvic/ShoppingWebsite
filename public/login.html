@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
+
+<head>
+
+  <title>Login</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/default.css" />
+  <link rel="stylesheet" href="assets/css/component.css" />
+  <script type="text/javascript" src="assets/js/jquery.js"></script>
+  <script src="assets/js/modernizr.custom.js"></script>
+  <script src="assets/js/login.js"></script>
+
+</head>
+
+<body background="http://www.w3school.com.cn/clouds.gif">
+
+  <!-- Header -->
+  <div id="header"></div>
+
+  <!-- Nav -->
+  <div id="nav"></div>
+
+  <section id="three" class="wrapper style2">
+    <div class="inner">
+
+      <!-- <form id="frmLogin" > -->
+      <div id="frm">
+        <fieldset>
+          <legend>
+            <h3>Log In</h3></legend>
+          <div class="control-group">
+            <label for="username" class="control-label">
+                <input type="text" id="user" class="input-block-level" name ="username" placeholder="USERNAME"/>
+                <span class="help">* Please inform your username</span>
+              </label>
+          </div>
+          <div class="control-group">
+            <label for="password" class="control-label">
+                <input type="password" id="pass" class="input-block-level" name="password" placeholder="PASSWORD"/>
+                <span class="help">* Please inform your password</span>
+              </label>
+          </div>
+          <input type="checkbox" id="rememberMe" name="rememberMe" />
+          <label for="rememberMe">Remember Me</label>
+          <p>Doesn't have an account? <a href="sign.html">Sign Up</a></p>
+          <ul class="actions">
+            <input type="submit" id="submit" value="Submit" class="button special" />
+          </ul>
+        </fieldset>
+      </div>
+      <!-- </form>        -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+  <script>
+    $(function () {
+      $('#header').load('app/header.html');
+      $('#nav').load('app/nav.html');
+      $('#footer').load('app/footer.html');
+    })
+  </script>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/skel.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/toucheffects.js"></script>
+</body>
+
+</html>

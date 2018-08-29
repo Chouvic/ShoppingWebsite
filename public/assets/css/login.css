@@ -1,0 +1,31 @@
+body{
+    margin:0px;
+    width: 700px;
+    height: 150px;
+    border: 5px solid green;
+}
+
+#title{
+    color: red;
+}
+
+#cursor{
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    border:1px solid red;
+}
+
+#user{
+    border:1px solid red;
+}
+
+#pass{
+    border:1px solid red;
+}
+#test{
+    margin: 1px;
+    width: 100;
+}
